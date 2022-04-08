@@ -22,8 +22,8 @@ const handleChange = (e)=>{
                 return <h1>{item}</h1>
             })
         }
-        <input type={"text"} value={task} placeholder="Enter task" onChange={handleChange}/>
-        <button onClick={handleTask}>Add Task</button>
+        <input type={"text"} value={task} placeholder="Write Something" onChange={handleChange}/>
+        <button onClick={handleTask}>+</button>
         
         </>
     )
