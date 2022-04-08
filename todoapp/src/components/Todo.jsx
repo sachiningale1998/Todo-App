@@ -17,14 +17,14 @@ const handleChange = (e)=>{
 
     return (
         <>
-        <h1>Todo</h1>
-        <input type={"text"} value={task} placeholder="Enter task" onChange={handleChange}/>
-        <button onClick={handleTask}>Add Task</button>
         {
             todo.map((item)=>{
                 return <h1>{item}</h1>
             })
         }
+        <input type={"text"} value={task} placeholder="Enter task" onChange={handleChange}/>
+        <button onClick={handleTask}>Add Task</button>
+        
         </>
     )
 
