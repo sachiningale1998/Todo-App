@@ -13,7 +13,8 @@ const handleChange = (e)=>{
         setTodo([...todo,task])
        // setTask(task)
         console.log(task);
-        setTask("")
+        setTask("");
+        // postTodo(todo);
     }
 
     return (
